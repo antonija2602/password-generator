@@ -18,13 +18,53 @@
     </head>
 
     <body>
-        <!--==================== HEADER ====================-->
-        <header></header>
-
-        <!--==================== MAIN ====================-->
-        <main></main>
-
-        <!--==================== FOOTER ====================-->
-        <footer></footer>
+        <div class="pw_container">
+            <div class="pw_header">
+                <div class="pw">
+                    <label for="">55656+g5fd</label>
+                    <button class="button_copy">Copy</button>
+                </div>
+            </div>
+            <div class="pw_body">
+                <div class="form_control">
+                    <label for="length">Password length</label>
+                    <input
+                        id="length"
+                        value="20"
+                        type="number"
+                        min="4"
+                        max="40" />
+                </div>
+                <div class="form_control">
+                    <label for="number">Contain Uppercase Letters</label>
+                    <input
+                        id="upper"
+                        type="checkbox" />
+                </div>
+                <div class="form_control">
+                    <label for="lower">Contain Lowercase Letters</label>
+                    <input
+                        id="lower"
+                        type="checkbox" />
+                </div>
+                <div class="form_control">
+                    <label for="number">Contain Numbers</label>
+                    <input
+                        id="number"
+                        type="checkbox" />
+                </div>
+                <div class="form_control">
+                    <label for="symbol">Contain Symbols</label>
+                    <input
+                        id="symbol"
+                        type="checkbox" />
+                </div>
+                <button
+                    class="generate"
+                    id="generate">
+                    Generate Password
+                </button>
+            </div>
+        </div>
     </body>
 </html>
