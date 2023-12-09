@@ -65,15 +65,25 @@ body {
     transform: translate(0, 10%);
 }
 .pw label {
+    display: block;
+    /* display: flex;
+    flex-shrink: 1; */
     /* text-align: center; */
     align-self: center;
+    /* overflow-x: auto; */
+    /* white-space: nowrap; */
+    word-wrap: break-word;
+    /* flex-wrap: wrap; */
     /* justify-items: center; */
     /* align-items: center; */
     /* position: absolute; */
+    /* white-space: nowrap; */
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.4rem;
     padding: 0 1rem;
     color: #eee;
+
+    border: 1px red solid;
 }
 .pw_body {
     padding: 1rem;

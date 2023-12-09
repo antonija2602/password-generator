@@ -18,16 +18,16 @@
     </head>
 
     <body>
-        <div class="pw_container">
+        <div
+            class="pw_container"
+            id="pw-container">
             <div class="pw_header">
                 <div
                     id="pw"
                     class="pw">
                     <label
                         id="password-label"
-                        for=""
-                        >55656+g5fd</label
-                    >
+                        for=""></label>
                     <button
                         id="button-copy"
                         class="button_copy">
@@ -40,34 +40,38 @@
                     <label for="length">Password length</label>
                     <input
                         id="length"
-                        value="20"
+                        value="40"
                         type="number"
-                        min="4"
+                        min="8"
                         max="40" />
                 </div>
                 <div class="form_control">
                     <label for="number">Contain Uppercase Letters</label>
                     <input
                         id="upper"
-                        type="checkbox" />
+                        type="checkbox"
+                        checked />
                 </div>
                 <div class="form_control">
                     <label for="lower">Contain Lowercase Letters</label>
                     <input
                         id="lower"
-                        type="checkbox" />
+                        type="checkbox"
+                        checked />
                 </div>
                 <div class="form_control">
                     <label for="number">Contain Numbers</label>
                     <input
                         id="number"
-                        type="checkbox" />
+                        type="checkbox"
+                        checked />
                 </div>
                 <div class="form_control">
                     <label for="symbol">Contain Symbols</label>
                     <input
                         id="symbol"
-                        type="checkbox" />
+                        type="checkbox"
+                        checked />
                 </div>
                 <button
                     class="button_generate"
